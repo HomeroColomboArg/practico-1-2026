@@ -17,7 +17,7 @@ Vamos a dividir el práctico teniendo en cuenta la complejidad de cada bloque. L
 ### Fede
 
 - [src/parte 2/clase-alumno.ts](src/parte%202/clase-alumno.ts) ✅
-- [src/parte 2/cuenta.ts](src/parte%202/cuenta.ts)
+- [src/parte 2/cuenta.ts](src/parte%202/cuenta.ts) ✅
 - [src/parte 2/ej07-tipos-interfaces.ts](src/parte%202/ej07-tipos-interfaces.ts)
 - [src/parte 3/ej14-vehiculos.ts](src/parte%203/ej14-vehiculos.ts)
 - [src/parte 3/ej15-animales.ts](src/parte%203/ej15-animales.ts)
