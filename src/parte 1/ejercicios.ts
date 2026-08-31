@@ -27,8 +27,7 @@ import { alumnos, type Alumno } from "../models/db.js";
 // obtenerNombres(alumnos)
 // -> ["Juan", "María", "Pedro", ...]
 export function obtenerNombres(alumnos: Alumno[]): string[] {
-    // TODO
-    throw new Error("Implementar");
+    return alumnos.map(a => a.nombre);
 }
 
 // -----------------------------------------------------------------------------
@@ -39,8 +38,7 @@ export function obtenerNombres(alumnos: Alumno[]): string[] {
 // Ejemplo:
 // ["Juan Pérez", "María García", ...]
 export function obtenerNombresCompletos(alumnos: Alumno[]): string[] {
-    // TODO
-    throw new Error("Implementar");
+    return alumnos.map(a => `${a.nombre} ${a.apellido}`);
 }
 
 // -----------------------------------------------------------------------------
@@ -48,8 +46,7 @@ export function obtenerNombresCompletos(alumnos: Alumno[]): string[] {
 // -----------------------------------------------------------------------------
 // Devolver solamente los alumnos que tengan 18 años o más.
 export function obtenerMayoresDeEdad(alumnos: Alumno[]): Alumno[] {
-    // TODO
-    throw new Error("Implementar");
+    return alumnos.filter(a => a.edad >= 18);
 }
 
 // -----------------------------------------------------------------------------
@@ -58,8 +55,7 @@ export function obtenerMayoresDeEdad(alumnos: Alumno[]): Alumno[] {
 // Un alumno aprueba cuando su nota es mayor o igual a 6.
 // Devolver los alumnos aprobados.
 export function obtenerAprobados(alumnos: Alumno[]): Alumno[] {
-    // TODO
-    throw new Error("Implementar");
+    return alumnos.filter(a => a.nota >= 6);
 }
 
 // -----------------------------------------------------------------------------
@@ -70,8 +66,13 @@ export function obtenerAprobados(alumnos: Alumno[]): Alumno[] {
 //
 // Si el arreglo está vacío, devolver 0.
 export function calcularPromedio(alumnos: Alumno[]): number {
-    // TODO
-    throw new Error("Implementar");
+    if (alumnos.length === 0) return 0;
+
+    const sNotas = alumnos.reduce((acc, alumno) => {
+        return acc + alumno.nota
+    }, 0);
+
+    return sNotas/alumnos.length ;
 }
 
 // -----------------------------------------------------------------------------
