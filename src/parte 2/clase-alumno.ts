@@ -13,7 +13,7 @@
 // EJERCICIO 10 - interface Materia
 // -----------------------------------------------------------------------------
 //TODO cambiar a type: COMPLETO ✅
-type Materia = {
+export type Materia = {
     codigo: number;
     nombre: string;
     horas: number;
