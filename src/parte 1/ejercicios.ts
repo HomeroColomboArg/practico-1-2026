@@ -137,8 +137,7 @@ export function todosAprobaron(alumnos: Alumno[]): boolean {
 // Devolver la cantidad de alumnos aprobados.
 // Resolver utilizando filter y length.
 export function cantidadAprobados(alumnos: Alumno[]): number {
-    // TODO
-    throw new Error("Implementar");
+    return alumnos.filter(a => a.nota >= 6).length;
 }
 
 // -----------------------------------------------------------------------------
