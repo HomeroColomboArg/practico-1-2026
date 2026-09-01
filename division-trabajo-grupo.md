@@ -6,8 +6,8 @@ Vamos a dividir el práctico teniendo en cuenta la complejidad de cada bloque. L
 
 ### Matias
 
-- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicios 1 al 5
-- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicio 11
+- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicios 1 al 5 ✅
+- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicio 11 ✅
 
 ### Nic
 
