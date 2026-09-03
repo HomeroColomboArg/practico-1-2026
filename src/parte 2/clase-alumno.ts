@@ -102,7 +102,7 @@ export class Alumno {
     quitarMateria(codigo: number): Materia | undefined {
         // TODO: quitar la materia con ese código y devolverla.
         // Si no está inscripto en ninguna con ese código, devolver undefined. COMPLETO ✅
-        let respuesta;
+        let respuesta: Materia | undefined;
         if (this.estaInscripto(codigo)){
             // Busco la materia con ese codigo y la guardo en la variable materia
             const materia = this.materias.find(m => m.codigo === codigo);
