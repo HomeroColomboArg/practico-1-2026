@@ -11,8 +11,8 @@ Vamos a dividir el práctico teniendo en cuenta la complejidad de cada bloque. L
 
 ### Nic
 
-- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicios 6 al 10
-- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicios 12 y 13
+- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicios 6 al 10 ✅
+- [src/parte 1/ejercicios.ts](src/parte%201/ejercicios.ts) — ejercicios 12 y 13 ✅
 
 ### Fede
 
