@@ -15,7 +15,6 @@
  * La base contiene 1000 alumnos.
  */
 
-import { access } from "fs";
 import { alumnos, type Alumno } from "../models/db.js";
 
 // -----------------------------------------------------------------------------
